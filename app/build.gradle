@@ -56,15 +56,3 @@ dependencies {
 
 }
 
-plugins {
-  id "org.sonarqube" version "3.3"
-}
-
-sonarqube {
-  properties {
-    property "sonar.projectKey", "iazizahmad_atomsdk-demo-android"
-    property "sonar.organization", "iazizahmad"
-    property "sonar.host.url", "https://sonarcloud.io"
-  }
-}
-
